@@ -1,0 +1,153 @@
+.contact {
+    position: absolute;
+    width: 274px;
+    height: 43px;
+    left: 0px;
+    top: 365px;
+    transform: rotate(-90.00deg);
+    color: rgb(8, 8, 8);
+    font-family: Body Grotesque;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 108.5%;
+    letter-spacing: 13%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.contact__left {
+    width: 390px;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #000;
+    margin-left: 100px;
+}
+
+.contact__left h2 {
+    color: rgb(0, 0, 0);
+    font-family: Body Grotesque;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 108.5%;
+    letter-spacing: 10.5%;
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.contact__left p {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 108.5%;
+    letter-spacing: 10.5%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.contact__left input,
+.contact__left textarea {
+    width: 351px;
+    height: 41px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 18px 0;
+    padding: 10px 20px;
+    color: rgb(83, 83, 83);
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 108.5%;
+    letter-spacing: 10.5%;
+    text-align: left;
+}
+
+.contact__left button {
+    width: 147px;
+    height: 33px;
+    background: rgb(251, 27, 61);
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 108.5%;
+    letter-spacing: 10.5%;
+    text-align: center;
+}
+
+.contact__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin: 25px 0;
+}
+
+.contact__icon h3 {
+    width: 374px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 132.4%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.aboutbg {
+    padding: 16px 0;
+    background: #7b7b7b;
+}
+
+.kenzo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.bufer {
+    width: 165px;
+    height: 103px;
+    padding: 20px 0;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.bufer h2 {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 132.4%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.follow h2 {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 108.5%;
+    letter-spacing: 10.5%;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.follow__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}

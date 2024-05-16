@@ -1,0 +1,50 @@
+.headerbg {
+    width: 100vw;
+    background: rgb(242, 246, 249);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 0;
+}
+
+.heder__right {
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.nav__item h2 {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    transition: .3s ease-in-out;
+}
+
+.nav__item h2:hover {
+    color: #ff0000;
+    font-size: 17px;
+}
+
+.nav__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
